@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a252bfad-b92e-428c-abd4-58600d3908be" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRMTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/andersenLab/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/andersenLab/ContactFaceCreationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/andersenLab/ProjectCreationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/andersenLab/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/CRMTest.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/andersenLab/ContactFaceCreationTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/andersenLab/ProjectCreationTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Sasha\IdeaProjects\CRMTest\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1xYKYNfgMhpSG2vlM5a02du8MwI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sasha\IdeaProjects\CRMTest\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ContactFaceCreationTest">
+    <configuration name="ContactFaceCreationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CRMTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="andersenLab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="andersenLab" />
+      <option name="MAIN_CLASS_NAME" value="andersenLab.ContactFaceCreationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactFaceCreationTest.contactFaceCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CRMTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="andersenLab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="andersenLab" />
+      <option name="MAIN_CLASS_NAME" value="andersenLab.ContactFaceCreationTest" />
+      <option name="METHOD_NAME" value="contactFaceCreation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectCreationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CRMTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="andersenLab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="andersenLab" />
+      <option name="MAIN_CLASS_NAME" value="andersenLab.ProjectCreationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectCreationTest.projectCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CRMTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="andersenLab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="andersenLab" />
+      <option name="MAIN_CLASS_NAME" value="andersenLab.ProjectCreationTest" />
+      <option name="METHOD_NAME" value="projectCreation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ContactFaceCreationTest" />
+        <item itemvalue="JUnit.ContactFaceCreationTest.contactFaceCreation" />
+        <item itemvalue="JUnit.ProjectCreationTest" />
+        <item itemvalue="JUnit.ProjectCreationTest.projectCreation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a252bfad-b92e-428c-abd4-58600d3908be" name="Default Changelist" comment="" />
+      <created>1630526628954</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630526628954</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="466" y="28" key="CommitChangelistDialog2" timestamp="1630700487280">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="466" y="28" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1630700487280" />
+    <state x="580" y="174" key="FileChooserDialogImpl" timestamp="1630526738674">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="174" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1630526738674" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1630700084801">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1630700084801" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1630700084800">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1630700084800" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1630700084800">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1630700084800" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1630700084801">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1630700084801" />
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1630677003077">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1630677003077" />
+    <state width="1557" height="276" key="GridCell.Tab.1.center" timestamp="1630677003077">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1630677003077" />
+    <state width="1557" height="276" key="GridCell.Tab.1.left" timestamp="1630677003077">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1630677003077" />
+    <state width="1557" height="276" key="GridCell.Tab.1.right" timestamp="1630677003077">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1630677003077" />
+    <state x="330" y="87" key="Maven.ArtifactSearchDialog" timestamp="1630581811431">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="330" y="87" key="Maven.ArtifactSearchDialog/0.0.1600.860@0.0.1600.860" timestamp="1630581811431" />
+    <state x="452" y="47" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1630674556672">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="452" y="47" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1600.860@0.0.1600.860" timestamp="1630674556672" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/andersenLab/ContactFaceCreationTest.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/andersenLab/ContactFaceCreationTest.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
