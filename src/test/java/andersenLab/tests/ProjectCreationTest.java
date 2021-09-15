@@ -23,29 +23,24 @@ import static org.junit.Assert.assertEquals;
 
 public class ProjectCreationTest extends TestBase {
     private WebDriver driver;
-    private WebDriverWait wait;
-    private HomePage homePage;
     private Properties properties;
-    private ContactPage contactPage;
-    private ContactPage contactPageNew;
-    private ContactFaceCreationPage contactFaceCreationPage;
+    private LoginPage loginPage;
     private ProjectPage projectPage;
-    private ProjectPage projectPageNew;
-    private ProjectCreationPage projectCreationPage;
 
     @Test
     public void projectCreation() throws IOException {
         driver = super.driver;
         properties = new Properties();
         properties.load(new FileReader(new File("src/main/resources/local.properties")));
-        LoginPage loginPage = new LoginPage(driver);
-        loginPage.setUsername(properties.getProperty("web.username"));
-        loginPage.setPassword(properties.getProperty("web.password"));
-        homePage = loginPage.clickSignInButton();
-        String expectedTitle = "Все Мои проекты";
-        projectPage = homePage.selectProject();
-        projectPage.createProject();
-        assertEquals(expectedTitle,projectPage.getText());
+        String expectedTitle = "Все Проекты";
+        loginPage = new LoginPage(driver);
+        projectPage = loginPage.setUsername(properties.getProperty("web.username"))
+                .setPassword(properties.getProperty("web.password"))
+                .clickSignInButton()
+                .selectProject()
+                .createProject()
+                .createProjectInfo();
+        assertEquals(expectedTitle, projectPage.getText());
     }
 
 }

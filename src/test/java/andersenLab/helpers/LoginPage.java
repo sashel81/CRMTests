@@ -1,33 +1,41 @@
 package andersenLab.helpers;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
-import java.util.Properties;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage extends BasePageHelper {
     private WebDriver driver;
-    private Properties properties;
-    private By usernameField = By.id("prependedInput");
-    private By passwordField = By.id("prependedInput2");
-    private By signInButton = By.id("_submit");
+
+    @FindBy(id = "prependedInput")
+    private WebElement usernameField;
+
+    @FindBy(id = "prependedInput2")
+    private WebElement passwordField;
+
+    @FindBy(id = "_submit")
+    private WebElement signInButton;
 
 
     public LoginPage(WebDriver driver) {
-        this.driver= driver;
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
     }
 
 
-    public void setUsername(String username) {
-        driver.findElement(usernameField).sendKeys(username);
+    public LoginPage setUsername(String username) {
+        usernameField.sendKeys(username);
+        return this;
     }
 
-    public void setPassword(String password) {
-        driver.findElement(passwordField).sendKeys(password);
+    public LoginPage setPassword(String password) {
+        passwordField.sendKeys(password);
+        return this;
     }
 
     public HomePage clickSignInButton() {
-        driver.findElement(signInButton).click();
+        signInButton.click();
         return new HomePage(driver);
     }
 
